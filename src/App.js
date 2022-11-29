@@ -83,10 +83,15 @@ function App() {
       <header className="App-header">
         <img src='https://developer.litprotocol.com/img/logo.svg' className="App-logo" alt="logo" />
         <p>
-          Give it a try!<br/>
-          {
-            data ? JSON.stringify(data) : null
-          }
+          Give it a try!<br />
+          <a href="https://github.com/LIT-Protocol/demo-lit-js-sdk-v2-react-encrypt-decrypt/blob/main/src/App.js">https://github.com/LIT-Protocol/demo-lit-js-sdk-v2-react-encrypt-decrypt/blob/main/src/App.js</a>
+          <code>
+            <pre>
+              {
+                data ? JSON.stringify(data) : null
+              }
+            </pre>
+          </code>
         </p>
         <button
           onClick={go}
